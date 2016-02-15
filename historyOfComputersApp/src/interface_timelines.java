@@ -76,6 +76,7 @@ public class interface_timelines extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(255, 255, 255));
         jButton2.setFont(new java.awt.Font("Quicksand", 1, 18)); // NOI18N
         jButton2.setForeground(new java.awt.Color(85, 135, 47));
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icon_locked.png"))); // NOI18N
         jButton2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(205, 220, 57)));
         jButton2.setLabel("MODERN DAY");
         jButton2.setMargin(new java.awt.Insets(0, 0, 0, 0));
@@ -90,6 +91,7 @@ public class interface_timelines extends javax.swing.JFrame {
         jButton7.setBackground(new java.awt.Color(255, 255, 255));
         jButton7.setFont(new java.awt.Font("Quicksand", 1, 18)); // NOI18N
         jButton7.setForeground(new java.awt.Color(85, 135, 47));
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icon_unlocked.png"))); // NOI18N
         jButton7.setText("ORIGINS");
         jButton7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(205, 220, 57)));
         jButton7.setMargin(new java.awt.Insets(0, 0, 0, 0));
@@ -104,6 +106,7 @@ public class interface_timelines extends javax.swing.JFrame {
         jButton9.setBackground(new java.awt.Color(255, 255, 255));
         jButton9.setFont(new java.awt.Font("Quicksand", 1, 18)); // NOI18N
         jButton9.setForeground(new java.awt.Color(85, 135, 47));
+        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icon_locked.png"))); // NOI18N
         jButton9.setText("EARLY 1900'S");
         jButton9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(205, 220, 57)));
         jButton9.setMargin(new java.awt.Insets(0, 0, 0, 0));
@@ -118,8 +121,8 @@ public class interface_timelines extends javax.swing.JFrame {
         jButton5.setBackground(new java.awt.Color(255, 255, 255));
         jButton5.setFont(new java.awt.Font("Quicksand", 1, 18)); // NOI18N
         jButton5.setForeground(new java.awt.Color(85, 135, 47));
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icon_locked.png"))); // NOI18N
         jButton5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(205, 220, 57)));
-        jButton5.setLabel("THE INTERNET AND NETWORKS");
         jButton5.setMargin(new java.awt.Insets(0, 0, 0, 0));
         jButton5.setOpaque(true);
         jButton5.setSize(new java.awt.Dimension(90, 30));
@@ -132,6 +135,7 @@ public class interface_timelines extends javax.swing.JFrame {
         jButton8.setBackground(new java.awt.Color(255, 255, 255));
         jButton8.setFont(new java.awt.Font("Quicksand", 1, 18)); // NOI18N
         jButton8.setForeground(new java.awt.Color(85, 135, 47));
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icon_locked.png"))); // NOI18N
         jButton8.setText("HOME COMPUTERS");
         jButton8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(205, 220, 57)));
         jButton8.setMargin(new java.awt.Insets(0, 0, 0, 0));
@@ -150,7 +154,7 @@ public class interface_timelines extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton9, javax.swing.GroupLayout.DEFAULT_SIZE, 348, Short.MAX_VALUE)
+                    .addComponent(jButton9, javax.swing.GroupLayout.DEFAULT_SIZE, 360, Short.MAX_VALUE)
                     .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 360, Short.MAX_VALUE)
                     .addComponent(jButton5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 360, Short.MAX_VALUE)
                     .addComponent(jButton8, javax.swing.GroupLayout.DEFAULT_SIZE, 360, Short.MAX_VALUE))
